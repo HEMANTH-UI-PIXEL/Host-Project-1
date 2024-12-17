@@ -1,0 +1,53 @@
+body, html {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #312f2f;
+}
+
+.game-container {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.choices {
+    margin-bottom: 20px;
+}
+
+.choice {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #b82160;
+    color: white;
+}
+
+.choice:hover {
+    background-color: #661053;
+}
+
+.reset-button {
+    background-color: #231a9c; /* Different color for reset button */
+}
+
+.reset-button:hover {
+    background-color: #2165bd;
+}
+
+.result {
+    font-size: 18px;
+}
+
+#game-result {
+    font-weight: bold;
+    margin-top: 10px;
+}
